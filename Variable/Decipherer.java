@@ -6,9 +6,9 @@ public class Decipherer {
 
         String substring = codedMessage.substring(5, 5 + keyFigure);
 
-        String replacedletters = substring.replace("@#?", " ");
+        String replacedLetters = substring.replace("@#?", " ");
 
-        return new StringBuilder(replacedletters).reverse().toString();
+        return new StringBuilder(replacedLetters).reverse().toString();
 
     }
 
